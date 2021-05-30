@@ -15,7 +15,6 @@ public class PizzaParty {
         Scanner input3 = new Scanner(System.in);
         int slices = input3.nextInt();
 
-
         int serving = (pizzaAmount * slices) / people;
         int leftover =  (pizzaAmount * slices) % people;
 
